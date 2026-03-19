@@ -1,0 +1,8 @@
+{
+  "experiment_config": "configs/portfolio_rl_base.json",
+  "backbones": ["temporal_cnn"],
+  "seeds": [7, 11, 19],
+  "timesteps": [100000, 300000],
+  "turnover_penalties": [0.001, 0.003, 0.005],
+  "reward_horizons": [1, 5]
+}

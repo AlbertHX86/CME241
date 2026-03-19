@@ -1,0 +1,6 @@
+{
+  "experiment_config": "configs/portfolio_rl_base.json",
+  "backbones": ["mlp", "temporal_cnn"],
+  "seeds": [7, 11, 19, 29, 37],
+  "timesteps": 100000
+}
